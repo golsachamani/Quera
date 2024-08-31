@@ -1,0 +1,11 @@
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+a3 = int(input())
+b3 = int(input())
+team1 = min(a1,b1)
+team2 = min(a2,b2)
+team3 = min(a3,b3)
+total = team1+team2+team3
+print(total)
